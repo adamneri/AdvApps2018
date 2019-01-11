@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PicturePuzzle16Tile.exe" version="1.0.0.0" publicKeyToken="6681afbf0da16ffc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PicturePuzzle16Tile" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PicturePuzzle16Tile.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PicturePuzzle16Tile.exe" size="71136">
+      <assemblyIdentity name="PicturePuzzle16Tile" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IRxxs4+PjNkXW4PfUkjXRCZNprzsvj0olnkIAxo0FmM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PicturePuzzle16Tile.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XAVIERHS\neria20" issuerKeyHash="39fded7424496c0e38db0d74f9fcd061cc2cdec6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>93xbOKmqFvdUGebf1d5rUwpVAqx8zxDzn/xa+R6Oil0=</DigestValue></Reference></SignedInfo><SignatureValue>M+nQHfyL1IcNYEKm9ycVzTdWS1v/E0NOGzwFio+yf8VhzxSIy0dCwZ4IPe6slMfeyGZsxWexhYXxHh3UBRPfrVdf4fat8v+rr6pXIK+BJyHbE3yBy0DUmZtYwUOG2NxpneYYlkcZ+LUqSlAmKUofjlgqVjYlwt9pOcHvkjC5STY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pe6mfzKGyGpA0VkHBs9Y8AquETi/KXKfVvfIs3c97VZYEQNgyWN4tNVOcQ3M/l1pRPbTDGAjGggWVfanMw+UW2/WIUgpGZS9yhj/lIZy8h6O3OQ8iL9nRQyUaQhwU3bJkFO+lhvJ/ecUQa+y6oI+csTRYPSFclKEDpwDSFzDwNc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5d8a8e1ef95afc9ff310cf7cac02550a536bded5dfe61954f716aaa9385b7cf7" Description="" Url=""><as:assemblyIdentity name="PicturePuzzle16Tile.exe" version="1.0.0.0" publicKeyToken="6681afbf0da16ffc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XAVIERHS\neria20</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>j0OE3+tIG8h5p4abcnU5GKQ0/N2Fk7L2mxEp52wI8GM=</DigestValue></Reference></SignedInfo><SignatureValue>gRRc7FlkHjF2fvqdcPIK5eccQz5TJnPoEYaYg/rYhHoPYfXnHKAuEuR/Byk4rR+ZMspBGtasVlAm2WRJkKlmNe4jzfWHN+VdoHP7+Mjt7q76o1lydB1reFrT8nJXWRMjVjLdy72cAsdXCLqFSulRlPeCsULNXCUYt/G0LmC86O4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pe6mfzKGyGpA0VkHBs9Y8AquETi/KXKfVvfIs3c97VZYEQNgyWN4tNVOcQ3M/l1pRPbTDGAjGggWVfanMw+UW2/WIUgpGZS9yhj/lIZy8h6O3OQ8iL9nRQyUaQhwU3bJkFO+lhvJ/ecUQa+y6oI+csTRYPSFclKEDpwDSFzDwNc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQEXiA+vZXJqVK/hSga1tJJDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAWABBAFYASQBFAFIASABTAFwAbgBlAHIAaQBhADIAMDAeFw0xOTAxMTExNTM4NDZaFw0yMDAxMTEyMTM4NDZaMCsxKTAnBgNVBAMeIABYAEEAVgBJAEUAUgBIAFMAXABuAGUAcgBpAGEAMgAwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCl7qZ/MobIakDRWQcGz1jwCq4ROL8pcp9W98izdz3tVlgRA2DJY3i01U5xDcz+XWlE9tMMYCMaCBZV9qczD5Rbb9YhSCkZlL3KGP+UhnLyHo7c5DyIv2dFDJRpCHBTdsmQU76WG8n95xRBr7Lqgj5yxNFg9IVyUoQOnANIXMPA1wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABzNFjN98ATltLOWRoyJWVVCfc6m67q88pcXMfkBViCazIZwWKw9a5+IitYCk5N/WVEwZVYtWJfVeOgju42p2lTD32qFNkRGGhD/SyW9LvcUidUCS4UyD+vqyal62ABNn41kBjgHHvr8NiaPA5fA+7ScVu0qXewWy8GL07IcFzIn</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
